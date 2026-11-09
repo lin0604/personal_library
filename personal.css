@@ -1,0 +1,58 @@
+body {
+    background-color:rgba(249, 244, 214, 0.905);
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    columns: 2;
+    column-gap: 0;
+    column-fill: balance;
+    column-rule: 2px solid rgb(173, 173, 173);
+    
+    text-align: left;
+    display: flex;
+    height: 100vh;
+}
+
+.commander {
+    width: 20%;
+    margin-right: auto;
+    height: 100%;
+}
+
+.book_lister {
+    width: 80%;
+    margin-left: auto;
+    height: 100%;
+    padding: 5px;
+}
+
+.book_img {
+    width: 10%;
+}
+
+.book_img div {
+    height: 100px;
+}
+
+.book_img img {
+    height: 100%;
+    width: auto;
+}
+
+.book_data {
+    width: 70%;
+}
+
+.book_data + div {
+    height: 40px;
+}
+
+.book_data div {
+    height: 20px;
+}
+
+.book_button {
+    width: 10%;
+}
